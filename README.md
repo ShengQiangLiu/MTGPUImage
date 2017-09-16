@@ -24,3 +24,10 @@ pod install
 ### Version 1.0.0
 Initialize the project, add GPUImage source code, CocoaPods library release.
 
+### Version 1.0.1
+1、GPUImage shoot video first frame black screen problem
+
+2、fix https://github.com/BradLarson/GPUImage/issues/2455
+
+3、Modify the YUV to BGR caused by the color problem
+

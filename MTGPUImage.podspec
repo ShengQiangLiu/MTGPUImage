@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MTGPUImage'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'BSD'
   s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
   s.homepage = 'https://github.com/ShengQiangLiu/MTGPUImage'
