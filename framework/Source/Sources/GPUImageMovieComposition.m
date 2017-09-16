@@ -66,5 +66,15 @@
 
     return assetReader;
 }
+    
+    
+/*
+ https://github.com/BradLarson/GPUImage/issues/2455
+ GPUImageMovieComposition progress method always return NaN
+ */
+- (AVAsset *)asset
+{
+    return self.compositon;
+}
 
 @end
