@@ -42,6 +42,8 @@
 @property (readonly, nonatomic) AVAssetReader *assetReader;
 @property (readonly, nonatomic) BOOL audioEncodingIsFinished;
 @property (readonly, nonatomic) BOOL videoEncodingIsFinished;
+    
+@property (nonatomic, assign) BOOL forceBGR;
 
 /// @name Initialization and teardown
 - (id)initWithAsset:(AVAsset *)asset;
