@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCF1A33314DDB1EC00852800"
-               BuildableName = "libMTGPUImage.a"
-               BlueprintName = "MTGPUImage"
+               BuildableName = "libGPUImage.a"
+               BlueprintName = "GPUImage"
                ReferencedContainer = "container:GPUImage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCF1A33314DDB1EC00852800"
-            BuildableName = "libMTGPUImage.a"
-            BlueprintName = "MTGPUImage"
+            BuildableName = "libGPUImage.a"
+            BlueprintName = "GPUImage"
             ReferencedContainer = "container:GPUImage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

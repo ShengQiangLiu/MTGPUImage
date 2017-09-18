@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'ShengQiangLiu' => '1365688791@qq.com' }
   s.source   = { :git => 'https://github.com/ShengQiangLiu/MTGPUImage.git', :tag => "#{s.version}" }
   
-  s.source_files = 'framework/Source/**/*.{h,m}'
-  s.resources = 'framework/Resources/*.png'
+  s.ios.vendored_frameworks = 'Release/MTGPUImage.framework'
 
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }

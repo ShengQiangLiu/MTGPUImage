@@ -389,7 +389,7 @@
 		EBDC19591F6CD07300831A69 /* GPUImageFramebufferCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDC194E1F6CD07300831A69 /* GPUImageFramebufferCache.m */; };
 		EBDC19A01F6F68D900831A69 /* GPUImage-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EBDC199C1F6F68D900831A69 /* GPUImage-Prefix.pch */; };
 		EBDC19A11F6F68D900831A69 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBDC199D1F6F68D900831A69 /* Info.plist */; };
-		EBDC19A21F6F68D900831A69 /* MTGPUImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDC199F1F6F68D900831A69 /* MTGPUImageFramework.h */; };
+		EBDC19A21F6F68D900831A69 /* GPUImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDC199F1F6F68D900831A69 /* GPUImageFramework.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -402,8 +402,8 @@
 		BCB5E77814E20BAF00701302 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		BCB5E79214E3275100701302 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLProgram.h; path = Source/GLProgram.h; sourceTree = SOURCE_ROOT; };
 		BCB5E79314E3275200701302 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLProgram.m; path = Source/GLProgram.m; sourceTree = SOURCE_ROOT; };
-		BCE209E51943F20C002FEED8 /* MTGPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTGPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCF1A33414DDB1EC00852800 /* libMTGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTGPUImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE209E51943F20C002FEED8 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF1A33414DDB1EC00852800 /* libGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGPUImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF1A33714DDB1EC00852800 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCF1A34514DDB1EC00852800 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D30ACF221BAFE3DD00E9759C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -754,7 +754,7 @@
 		EBDC199C1F6F68D900831A69 /* GPUImage-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPUImage-Prefix.pch"; sourceTree = "<group>"; };
 		EBDC199D1F6F68D900831A69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDC199E1F6F68D900831A69 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		EBDC199F1F6F68D900831A69 /* MTGPUImageFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGPUImageFramework.h; sourceTree = "<group>"; };
+		EBDC199F1F6F68D900831A69 /* GPUImageFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -802,8 +802,8 @@
 		BCF1A33514DDB1EC00852800 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCF1A33414DDB1EC00852800 /* libMTGPUImage.a */,
-				BCE209E51943F20C002FEED8 /* MTGPUImage.framework */,
+				BCF1A33414DDB1EC00852800 /* libGPUImage.a */,
+				BCE209E51943F20C002FEED8 /* GPUImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1253,7 +1253,7 @@
 				EBDC199C1F6F68D900831A69 /* GPUImage-Prefix.pch */,
 				EBDC199D1F6F68D900831A69 /* Info.plist */,
 				EBDC199E1F6F68D900831A69 /* module.modulemap */,
-				EBDC199F1F6F68D900831A69 /* MTGPUImageFramework.h */,
+				EBDC199F1F6F68D900831A69 /* GPUImageFramework.h */,
 			);
 			name = SupportingFiles;
 			path = Source/SupportingFiles;
@@ -1267,7 +1267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDC19581F6CD07300831A69 /* GPUImageFramebufferCache.h in Headers */,
-				EBDC19A21F6F68D900831A69 /* MTGPUImageFramework.h in Headers */,
+				EBDC19A21F6F68D900831A69 /* GPUImageFramework.h in Headers */,
 				EBDC19541F6CD07300831A69 /* GPUImageFramebuffer.h in Headers */,
 				BCD81E8A194403FE007133DB /* GLProgram.h in Headers */,
 				EBDC19501F6CD07300831A69 /* GPUImageContext.h in Headers */,
@@ -1459,9 +1459,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BCE209E41943F20C002FEED8 /* MTGPUImageFramework */ = {
+		BCE209E41943F20C002FEED8 /* GPUImageFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCE209F81943F20D002FEED8 /* Build configuration list for PBXNativeTarget "MTGPUImageFramework" */;
+			buildConfigurationList = BCE209F81943F20D002FEED8 /* Build configuration list for PBXNativeTarget "GPUImageFramework" */;
 			buildPhases = (
 				BCE209E01943F20C002FEED8 /* Sources */,
 				BCE209E11943F20C002FEED8 /* Frameworks */,
@@ -1472,14 +1472,14 @@
 			);
 			dependencies = (
 			);
-			name = MTGPUImageFramework;
+			name = GPUImageFramework;
 			productName = GPUImage;
-			productReference = BCE209E51943F20C002FEED8 /* MTGPUImage.framework */;
+			productReference = BCE209E51943F20C002FEED8 /* GPUImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BCF1A33314DDB1EC00852800 /* MTGPUImage */ = {
+		BCF1A33314DDB1EC00852800 /* GPUImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCF1A35814DDB1EC00852800 /* Build configuration list for PBXNativeTarget "MTGPUImage" */;
+			buildConfigurationList = BCF1A35814DDB1EC00852800 /* Build configuration list for PBXNativeTarget "GPUImage" */;
 			buildPhases = (
 				BCF1A33014DDB1EC00852800 /* Sources */,
 				BCF1A33114DDB1EC00852800 /* Frameworks */,
@@ -1489,9 +1489,9 @@
 			);
 			dependencies = (
 			);
-			name = MTGPUImage;
+			name = GPUImage;
 			productName = GPUImage;
-			productReference = BCF1A33414DDB1EC00852800 /* libMTGPUImage.a */;
+			productReference = BCF1A33414DDB1EC00852800 /* libGPUImage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1523,9 +1523,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCF1A33314DDB1EC00852800 /* MTGPUImage */,
+				BCF1A33314DDB1EC00852800 /* GPUImage */,
 				BC552B361558C6F4001F3FFA /* Documentation */,
-				BCE209E41943F20C002FEED8 /* MTGPUImageFramework */,
+				BCE209E41943F20C002FEED8 /* GPUImageFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -1791,8 +1791,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Source/SupportingFiles/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MenYa.MTGPUImage;
-				PRODUCT_MODULE_NAME = MTGPUImage;
-				PRODUCT_NAME = MTGPUImage;
+				PRODUCT_MODULE_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage;
 				REEXPORTED_LIBRARY_PATHS = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1825,8 +1825,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Source/SupportingFiles/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MenYa.MTGPUImage;
-				PRODUCT_MODULE_NAME = MTGPUImage;
-				PRODUCT_NAME = MTGPUImage;
+				PRODUCT_MODULE_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage;
 				REEXPORTED_LIBRARY_PATHS = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1951,7 +1951,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCE209F81943F20D002FEED8 /* Build configuration list for PBXNativeTarget "MTGPUImageFramework" */ = {
+		BCE209F81943F20D002FEED8 /* Build configuration list for PBXNativeTarget "GPUImageFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCE209F91943F20D002FEED8 /* Debug */,
@@ -1969,7 +1969,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCF1A35814DDB1EC00852800 /* Build configuration list for PBXNativeTarget "MTGPUImage" */ = {
+		BCF1A35814DDB1EC00852800 /* Build configuration list for PBXNativeTarget "GPUImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCF1A35914DDB1EC00852800 /* Debug */,

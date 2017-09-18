@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCE209E41943F20C002FEED8"
                BuildableName = "MTGPUImage.framework"
-               BlueprintName = "MTGPUImageFramework"
+               BlueprintName = "GPUImageFramework"
                ReferencedContainer = "container:GPUImage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCE209E41943F20C002FEED8"
             BuildableName = "MTGPUImage.framework"
-            BlueprintName = "MTGPUImageFramework"
+            BlueprintName = "GPUImageFramework"
             ReferencedContainer = "container:GPUImage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCE209E41943F20C002FEED8"
             BuildableName = "MTGPUImage.framework"
-            BlueprintName = "MTGPUImageFramework"
+            BlueprintName = "GPUImageFramework"
             ReferencedContainer = "container:GPUImage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CreatePackage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MTGPUImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MTGPUImageDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MTGPUImageFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EB2E71051F6F90F00049B19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2E71231F6F911D0049B19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2E712A1F6F92390049B19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2E71351F6F93AD0049B19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2E71391F6F93BE0049B19F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
